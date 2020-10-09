@@ -1,1 +1,1 @@
-export const getDownloadLink = (bucket, key) => `https://s3.amazonaws.com/${bucket}/${encodeURI(key)}`;
+export const getDownloadLink = (bucket, key) => `https://${bucket}.s3.amazonaws.com/${encodeURI(key)}`;
